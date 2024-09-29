@@ -18,12 +18,14 @@ This repository contains the implementation of linear regression using Gradient 
 1. **Standardization**: Implemented feature scaling to standardize the data for improved performance.
 2. **Error Function**: Calculated the error using:
    \[
-   E = \frac{1}{N} \sum_{i=1}^{N} (y_i - (mx_i + b))^2
+   E = (1/N) * Σ (y_i - (mx_i + b))^2
    \]
 3. **Gradient Descent Algorithm**: 
    - Updated m and b iteratively using:
    \[
-   m_{\text{new}} = m_{\text{old}} - \alpha \frac{\partial E}{\partial m}, \quad b_{\text{new}} = b_{\text{old}} - \alpha \frac{\partial E}{\partial b}
+   m_new = m_old - α * ∂E/∂m
+   b_new = b_old - α * ∂E/∂b
+
    \]
 4. **Visualization**: 
    - Plotted the initial data points and regression line.
