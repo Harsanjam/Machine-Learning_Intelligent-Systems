@@ -17,16 +17,18 @@ This repository contains the implementation of linear regression using Gradient 
 ## Implementation Details:
 1. **Standardization**: Implemented feature scaling to standardize the data for improved performance.
 2. **Error Function**: Calculated the error using:
-   \[
+   ```
    E = (1/N) * Σ (y_i - (mx_i + b))^2
-   \]
+   ```
+   
 3. **Gradient Descent Algorithm**: 
    - Updated m and b iteratively using:
-   \[
+
+   ```
    m_new = m_old - α * ∂E/∂m
    b_new = b_old - α * ∂E/∂b
-
-   \]
+   ```
+   
 4. **Visualization**: 
    - Plotted the initial data points and regression line.
    - Visualized the updated regression line after 100 iterations and the error progression.
@@ -42,8 +44,3 @@ This repository contains the implementation of linear regression using Gradient 
 - NumPy
 - Pandas
 
-
-
----
-
-You can adapt this further based on specific code or additional insights from the lab.
